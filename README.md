@@ -16,6 +16,9 @@ Usage
 The admin creates websites using the Websitelist page.
 The client opens the website pages and subscribes to them.
 The data is created in the database.
+
+
+RUn php artisan migrate --seed, php artisan passport:install, and you are ok.
 The admin creates a post with a selection of any website.
 The notification is sent back to the client/subscribers email.
 You can view the subscribers via the Subscribers page.
